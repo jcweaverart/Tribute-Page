@@ -1,0 +1,210 @@
+/*-----Universal ------*/
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Paytone+One');
+
+body {
+  margin: auto;
+  padding: auto;
+  background: #000000;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#contain {
+
+}
+
+.header-container {
+  max-width: 900px;
+  min-height: 1500px;
+  position: relative;
+  background: rgba(255, 255, 255, 0.6);
+  margin: auto;
+  padding: 0px;
+  top: -800px;
+  z-index: 1;
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+}
+
+.header-image {
+  width: 100%;
+  height: 300px;
+  background-image:url('./img/Buddy.jpg');
+  background-size: cover;
+  background-position: 50% 30%;
+  margin: 0px;
+  padding: 0px;
+  top: 0px;
+  position: relative;
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+}
+
+button:focus {
+  outline: none;
+  background-color: #00a050;
+}
+
+button:hover {
+   background-color: #00773b;
+}
+
+#tributeTitle {
+  font-family: 'Anton', sans-serif;
+  font-size: 80px;
+}
+
+#tributeSubTitle {
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: #0c56b7;
+}
+
+#listTitle {
+  margin-top: 100px;
+  font-family: 'Anton', sans-serif;
+  color:#3d3d3d;
+}
+
+ul {
+  position: relative;
+  margin-top: 50px;
+  text-align: left;
+  padding: 0px 80px;
+}
+
+ul>li {
+  list-style: none;
+}
+
+ul>li>h3 {
+  list-style: none;
+  font-family: 'Paytone One', sans-serif;
+  font-size: 20px;
+  color:#0c56b7;
+}
+
+ul>li>p {
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background:#0c56b7;
+  margin: 0px;
+  margin-top: 35px;
+  padding: 0px;
+  position: relative;
+}
+
+.footer>p {
+  position: relative;
+  top: 40px;
+  color: white;
+
+}
+
+/*-----Snow Hills-------*/
+
+#imageBox1 {
+  min-height: 800px;
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+  padding: auto;
+  }
+
+.layer {
+  height: 800px;
+  width: 100%;
+  background-size: 100%;
+  position: fixed;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  margin: 0px 0px 0px -15px;
+  padding: auto;
+  min-width: 1088px;
+}
+
+.backgroundLayer {
+  background-image: url('./img/./img-bg.png');
+  text-align: center;
+}
+
+.background-01 {
+  background-image: url('./img/./img-01.png');
+  text-align: center;
+}
+
+.background-02 {
+  background-image: url('./img/./img-02.png');
+  text-align: center;
+}
+
+.background-03 {
+  background-image: url('./img/./img-03.png');
+  background-position: 50% 50%;
+  background-size: 80%;
+  text-align: center;
+}
+
+.background-04 {
+  background-image: url('./img/./img-04.png');
+  text-align: center;
+  width: 100%;
+}
+
+.myButton {
+  top: 20px;
+}
+
+.myButton:hover {
+  animation-name: wobbler;
+  animation-duration: 700ms;
+}
+
+@keyframes wobbler {
+  0% {-ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Safari */ transform: rotate(0deg);}
+  10% {-ms-transform: rotate(20deg); /* IE 9 */ -webkit-transform: rotate(5deg); /* Safari */ transform: rotate(5deg);}
+  30% {-ms-transform: rotate(-20dg); -webkit-transform: rotate(-5deg); transform: rotate(-5deg);}
+  50% {-ms-transform: rotate(20deg); /* IE 9 */ -webkit-transform: rotate(5deg); /* Safari */ transform: rotate(5deg);}
+  70% {-ms-transform: rotate(-20dg); -webkit-transform: rotate(-5deg); transform: rotate(-5deg);}
+  100% {-ms-transform: rotate(0deg); -webkit-transform: rotate(0deg); transform: rotate(0deg);}
+}
+
+
+/*----------section2---------*/
+
+#section2 {
+  position: relative;
+  background-color: #305DCE;
+  height: 900px;
+  text-align: center;
+  padding: 100px 0 0 0;
+  z-index: 0;
+}
+
+@media(max-width: 1000px) {
+  #section2 {
+    height: 1100px;
+  }
+}
+
+
+@media(max-width: 800px) {
+  #section2 {
+    height: 1200px;
+  }
+}
+
+@media(max-width: 600px) {
+  #section2 {
+    height: 1800px;
+  }
+}
